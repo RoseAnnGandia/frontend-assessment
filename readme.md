@@ -1,40 +1,11 @@
-Introduction
----
-Thanks for taking the time to complete this frontend technical assessment. We will be focusing on software quality (scalability, readability, maintainability, etc.) and your eye for detail. You may include any libraries, but Vue.js is preferred and jQuery is not recommended. Along with following best practices, bonus points for following our [coding guidelines](https://github.com/mindarc/frontend-assessment/wiki/Coding-guidelines). 
+Note on Exercise 1 : Assets were downloaded on the internet due to access issues on Github.
 
-Exercise 1
----
-Build a responsive page based on the designs.
+For Exercise 3 my answer is :
 
-##### Requirements
-1. Match the designs exactly.
-2. Needs to be responsive.
+the result of strings 'b' + 'a' = ba
+the result of +'a' = NaN means "Not a Number" , +'a' trying to convert a number using unary plus operator
+then add the 'a'
 
-##### Designs
-* exercise1-desktop.png
-* exercise1-mobile.png
+'b' + 'a' + NaN + 'a' = baNaNa and convert to lowercase
 
-##### Assets
-* Desktop banner - http://via.placeholder.com/1920x650
-* Mobile banner - http://via.placeholder.com/600x600
-* Content images - http://via.placeholder.com/400x300
-
-Exercise 2
----
-Read the `data.json` file and display the data as tabs on desktop and an accordion on mobile.
-
-##### Requirements
-1. Display data in tabs on desktop.
-2. Display data in an accordion on mobile.
-3. Only 1 accordion/tab should be open at a time.
-4. Open the first accordion/tab on load.
-5. If the open accordion is selected, close it.
-
-###### Bonus points
-* Improve the user experience with meaningful animations/transitions.
-* Design and styling.
-* Explain why the result of `('b' + 'a' + + 'a' + 'a').toLowerCase()` is `banana`.
-
-Submission
----
-We recommend submitting your completed assessment as a forked repository. Please replace README content with instructions and relevant documentation.
+the final result will be banana

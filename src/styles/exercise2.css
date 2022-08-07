@@ -1,0 +1,70 @@
+
+.exercise2-container { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section{
+  margin-top: 100px;
+  width: 50%;  
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+
+.section__tab{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 40px;
+  align-items: center;
+  padding: 20px;
+  color:#0078AA;
+  padding : 20px;
+  border-top: 1px solid #0078AA;
+  background-color: #0077aa0f;
+}
+
+.section__tab--active{
+  background-color:#0078AA;
+  color:white
+}
+
+.section__tab--first{
+  border-top : none
+}
+
+.section__tab:hover{
+  background-color: #0078AA;
+  color:white;
+  transition: ease-in-out .5s; 
+}
+
+.section__content{
+  padding: 10px 20px 10px 20px;
+  background-color:#0077aa33;
+}
+
+
+/* Mobile Phone */
+@media only screen and (min-width: 320px) {
+  .section{
+    margin-top: 50px;
+    width: 90%;  
+  }
+  
+}
+  
+/* Tablet */
+@media only screen and (min-width: 768px) {
+  .section{
+    width: 75%;  
+  }
+}
+  
+/* Laptop */
+@media only screen and (min-width: 1024px) {
+  .section{
+    width: 50%;  
+  }
+} 
+  

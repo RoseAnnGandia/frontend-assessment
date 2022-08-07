@@ -1,0 +1,133 @@
+/* EXERCISE 1 */
+  
+.exercise1-container { 
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.container-banner{
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom:40px;
+    width: 100%;
+}
+  
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(101, 101, 101, 0.7);
+}
+  
+.cover-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+  
+.card-container {
+    display: flex;
+    box-shadow: 0 0 4px rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    width:20%;
+}
+  
+.card{
+    display: flex; 
+    flex-direction: column;  
+}
+  
+.card-items{
+    display: flex; 
+    flex-direction: column;  
+    justify-content:space-between;
+    height: 100%;
+    align-items: center;
+}
+  
+  
+.banner{
+    width: 100%;
+    height: 650px;
+}
+  
+.card-image{
+    width: 100%;
+    height: 300px;
+    border-radius: 5px;
+}
+  
+.card-button{
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color:white;
+    padding: 8px 12px 8px 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: fit-content;
+    transition: ease-in-out .5s;
+}
+
+.card-button:hover{
+    background-color:#0077aa1f;
+    transition: ease-in-out .5s;
+    border-color: #0078AA;
+    color: #0078AA;
+}
+  
+  
+@media only screen and (min-width: 320px) {
+    .container-banner{
+      margin-bottom:30px;
+    }
+  
+    .card-container{
+      width:80%;
+      margin-bottom: 30px ;
+    }
+  
+    .banner{
+      width: 100%;
+      height: 300px;
+    }
+  
+    .card-image{
+      height: 200px;
+    }
+}
+  
+  
+@media only screen and (min-width: 768px) {
+    .card-container{
+      width:25%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  
+    .banner{
+      width: 100%;
+      height: 650px;
+    }
+    
+}
+  
+@media only screen and (min-width: 1024px) {
+    .card-container{
+      width:20%;
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  
+} 
+  
